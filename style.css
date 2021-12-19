@@ -1,0 +1,180 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.img1 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: -150px;
+    top: -100px;
+    border: 3px solid;
+    border-color: rgba(3, 41, 53, 0.755);
+}
+
+.img2 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: -150px;
+    top: -100px;
+    border: 3px solid;
+    border-color: rgba(58, 58, 58, 0.762);
+}
+
+.img3 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: -150px;
+    top: -100px;
+    border: 3px solid;
+    border-color: rgba(34, 74, 34, 0.831);
+}
+
+span {
+    display: inline-block;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline;
+}
+
+
+.recipe1 {
+    position: relative;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-left: 3px dashed;
+    border-bottom: 3px dashed;
+    border-color: rgba(15, 50, 62, 0.406);
+    background-color:rgba(45, 174, 216, 0.235);
+}
+
+
+
+.recipe1 span::first-letter {
+    font-size: 200%; 
+    font-weight: bold;
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.recipe1 h2 {
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.recipe1 h3 {
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.recipe1 li:nth-child(even) {
+    color: rgba(3, 41, 53, 0.755);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+
+
+
+
+.recipe2 {
+    position: relative;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-left: 3px dashed;
+    border-bottom: 3px dashed;
+    border-color: rgba(58, 58, 58, 0.762);
+    background-color: rgba(169, 169, 169, 0.18);
+}
+
+.recipe2 span::first-letter {
+    font-size: 200%; 
+    font-weight: bold;
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.recipe2 h2 {
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.recipe2 h3 {
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.recipe2 li:nth-child(odd) {
+    color: rgba(58, 58, 58, 0.762);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+
+
+.recipe3 {
+    position: relative;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-left: 3px dashed;
+    border-bottom: 3px dashed;
+    border-color: rgba(34, 74, 34, 0.831);
+    background-color: rgba(143, 188, 143, 0.618);
+}
+
+.recipe3 span::first-letter {
+    font-size: 200%; 
+    font-weight: bold;
+    color: rgba(34, 74, 34, 0.831);
+}
+
+.recipe3 h2 {
+    color: rgba(34, 74, 34, 0.831);
+}
+
+.recipe3 h3 {
+    color: rgba(34, 74, 34, 0.831);
+}
+
+.recipe3 li:nth-child(3n+3) {
+    color: rgba(34, 74, 34, 0.831);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
